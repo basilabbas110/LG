@@ -220,26 +220,50 @@ export default function Home() {
     setMobileMenuOpen(false)
   }
 
+  const [videoEnded, setVideoEnded] = useState(false);
+
   return (
     <main className="min-h-screen bg-black text-white font-sans">
       {/* Header + Hero */}
       <header className="relative h-screen flex flex-col overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/bg.jpg"
-            alt="Lucknow Background"
-            className="w-full h-full object-cover object-center"
-            draggable={false}
-          />
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              background: "linear-gradient(135deg, rgba(209,98,69,0.85) 0%, rgba(183,77,52,0.85) 50%, rgba(184,87,70,0.55) 100%)",
-              mixBlendMode: "multiply",
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/70 to-black/90"></div>
-        </div>
+       <div className="absolute inset-0 z-0">
+      {/* Video Layer */}
+      <video
+        autoPlay
+        muted
+        playsInline
+        className={`w-full h-full object-cover object-center absolute inset-0 transition-opacity duration-[5000ms] ease-in-out ${
+          videoEnded ? "opacity-0" : "opacity-100"
+        }`}
+        onEnded={() => setVideoEnded(true)}
+      >
+        <source src="/BGVIDEO.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Background Image Layer */}
+      <img
+        src="/bg.jpg"
+        alt="Lucknow Background"
+        className={`w-full h-full object-cover object-center absolute inset-0 transition-opacity duration-[5000ms] ease-in-out ${
+          videoEnded ? "opacity-100" : "opacity-0"
+        }`}
+        draggable={false}
+      />
+
+      {/* Terra Cotta Overlay */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "linear-gradient(135deg, rgba(209,98,69,0.85) 0%, rgba(183,77,52,0.85) 50%, rgba(184,87,70,0.55) 100%)",
+          mixBlendMode: "multiply",
+        }}
+      />
+
+      {/* Dark Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/70 to-black/90" />
+    </div>
 
         {/* Navbar */}
         <nav className="relative z-30 flex justify-between items-center px-6 md:px-12 py-6">
