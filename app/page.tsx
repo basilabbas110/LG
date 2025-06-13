@@ -19,12 +19,12 @@ import {
 const translations = {
   english: {
     welcome: "Welcome to Lazeez Gali",
-    explore: "Rumi Chowk is Lucknow's first-ever food park...",
+    explore: "Lazeez Gali is Lucknow's first-ever food park...",
     exploreBtn: "Book Now",
     partners: "Our Trusted Partners",
     faq: "Frequently Asked Questions",
 
-    faq1Question: "What documents are required to book a shop at Rumi Chowk @ Laziz Gali?",
+    faq1Question: "What documents are required to book a shop at Lazeez Gali?",
     faq1Answer: `
 To secure a shop booking, you need to submit the following verified documents:
 - Company Registration Certificate
@@ -50,12 +50,12 @@ We recommend consulting local authorities or a legal expert in Lucknow for the m
 Police verification ensures the safety and security of the marketplace. It is required for both the shop owner and employees to comply with local law enforcement and maintain public trust.
     `,
 
-    footer: "© 2025 RUMI CHOWK | All Rights Reserved.",
+    footer: "© 2025 LAZEEZ GALI | All Rights Reserved.",
     signIn: "Terms & Conditions",
     tenderOwnerLabel: "Tender Owner:",
     tenderOwnerName: "M/S Praveen Kumar Mishra, Jaunpur UP",
     address: "Address: Gulab Vatika, Opposite Rumi Gate, Husainabad",
-        termsDetailed: `To secure a shop booking at Rumi Chowk @ Laziz Gali, please submit the following verified documents of the franchise or brand owners:
+    termsDetailed: `To secure a shop booking at Lazeez Gali, please submit the following verified documents of the franchise or brand owners:
 
 - Company Registration Certificate: Proof of legal incorporation of your business entity.
 - Brand Registration Certificate: Documentation verifying the registration of your brand name or logo.
@@ -65,7 +65,7 @@ Police verification ensures the safety and security of the marketplace. It is re
 - Police Verification Certificates: Background verification documents for the shop owner and all employees to ensure security and compliance with local regulations.
 - Micro, Small, and Medium Enterprises (MSME) Registration: Certification classifying your business under the MSME category, which can offer various benefits.
 
-Additionally, depending on local regulations and specific requirements of Rumi Chowk Laziz Gali, you may need:
+Additionally, depending on local regulations and specific requirements of Lazeez Gali, you may need:
 - Shop and Establishment Registration: Regulates working conditions and ensures employee rights.
 - No Objection Certificate (NOC) from the Municipal Corporation: Confirms compliance with local municipal guidelines.
 
@@ -73,12 +73,12 @@ Consulting with local authorities or a legal expert in Lucknow is advisable to o
   },
   hindi: {
     welcome: "लज़ीज़ गली में आपका स्वागत है",
-    explore: "रूमी चौक लखनऊ का पहला फूड पार्क है...",
+    explore: "लज़ीज़ गली लखनऊ का पहला फूड पार्क है...",
     exploreBtn: "बुक करें",
     partners: "हमारे विश्वसनीय साझेदार",
     faq: "अक्सर पूछे जाने वाले प्रश्न",
 
-    faq1Question: "रूमी चौक @ लज़ीज़ गली में दुकान बुक करने के लिए कौन-कौन से दस्तावेज़ आवश्यक हैं?",
+    faq1Question: "लज़ीज़ गली में दुकान बुक करने के लिए कौन-कौन से दस्तावेज़ आवश्यक हैं?",
     faq1Answer: `
 दुकान बुकिंग सुनिश्चित करने के लिए निम्नलिखित सत्यापित दस्तावेज़ प्रस्तुत करने होंगे:
 - कंपनी पंजीकरण प्रमाणपत्र
@@ -104,12 +104,12 @@ Consulting with local authorities or a legal expert in Lucknow is advisable to o
 पुलिस सत्यापन बाज़ार की सुरक्षा और भरोसे को सुनिश्चित करता है। यह दुकानदार और कर्मचारियों दोनों के लिए आवश्यक होता है ताकि स्थानीय कानूनों का पालन हो सके।
     `,
 
-    footer: "© 2025 रूमी चौक | सर्वाधिकार सुरक्षित।",
+    footer: "© 2025 लज़ीज़ गली | सर्वाधिकार सुरक्षित।",
     signIn: "नियम और शर्तें",
     tenderOwnerLabel: "निविदा धारक:",
     tenderOwnerName: "एम/एस प्रवीण कुमार मिश्रा, जौनपुर यूपी",
     address: "पता: गुलाब वाटिका, रूमी गेट के सामने, हुसैनाबाद",
-    termsDetailed: `रूमी चौक @ लज़ीज़ गली में एक दुकान बुक करने के लिए, कृपया फ्रैंचाइज़ी या ब्रांड मालिकों के निम्नलिखित सत्यापित दस्तावेज़ जमा करें:
+    termsDetailed: `लज़ीज़ गली में एक दुकान बुक करने के लिए, कृपया फ्रैंचाइज़ी या ब्रांड मालिकों के निम्नलिखित सत्यापित दस्तावेज़ जमा करें:
 
 - कंपनी पंजीकरण प्रमाणपत्र: आपके व्यवसाय की कानूनी स्थापना का प्रमाण।
 - ब्रांड पंजीकरण प्रमाणपत्र: आपके ब्रांड नाम या लोगो के पंजीकरण का प्रमाण।
@@ -119,21 +119,20 @@ Consulting with local authorities or a legal expert in Lucknow is advisable to o
 - पुलिस सत्यापन प्रमाणपत्र: दुकान मालिक और सभी कर्मचारियों के लिए सुरक्षा और स्थानीय नियमों के अनुपालन हेतु पृष्ठभूमि सत्यापन दस्तावेज़।
 - MSME पंजीकरण: आपके व्यवसाय को सूक्ष्म, लघु और मध्यम उद्यम श्रेणी में वर्गीकृत करने वाला प्रमाणपत्र, जो विभिन्न लाभ प्रदान कर सकता है।
 
-इसके अतिरिक्त, स्थानीय नियमों और रूमी चौक लज़ीज़ गली की विशिष्ट आवश्यकताओं के आधार पर निम्नलिखित दस्तावेज़ भी आवश्यक हो सकते हैं:
+इसके अतिरिक्त, स्थानीय नियमों और लज़ीज़ गली की विशिष्ट आवश्यकताओं के आधार पर निम्नलिखित दस्तावेज़ भी आवश्यक हो सकते हैं:
 - दुकान और प्रतिष्ठान पंजीकरण: कार्य परिस्थितियों को नियंत्रित करता है और कर्मचारियों के अधिकार सुनिश्चित करता है।
 - नगर निगम से अनापत्ति प्रमाणपत्र (NOC): स्थानीय नगर नियमों के अनुपालन की पुष्टि करता है।
 
 पूरा अनुपालन सुनिश्चित करने और आवश्यक दस्तावेज़ों की सूची प्राप्त करने के लिए लखनऊ के स्थानीय अधिकारियों या कानूनी विशेषज्ञ से परामर्श करना उचित है।`
-
   },
   urdu: {
     welcome: "لذیذ گلی میں خوش آمدید",
-    explore: "رومی چوک لکھنؤ کا پہلا فوڈ پارک ہے...",
+    explore: "لذیذ گلی لکھنؤ کا پہلا فوڈ پارک ہے...",
     exploreBtn: "ابھی بک کریں",
     partners: "ہمارے قابل اعتماد شراکت دار",
     faq: "اکثر پوچھے گئے سوالات",
 
-    faq1Question: "رومی چوک @ لذیذ گلی میں دکان بک کرنے کے لیے کون سے دستاویزات درکار ہیں؟",
+    faq1Question: "لذیذ گلی میں دکان بک کرنے کے لیے کون سے دستاویزات درکار ہیں؟",
     faq1Answer: `
 دکان کی بکنگ کو یقینی بنانے کے لیے درج ذیل تصدیق شدہ دستاویزات جمع کروائیں:
 - کمپنی رجسٹریشن سرٹیفکیٹ
@@ -159,12 +158,12 @@ Consulting with local authorities or a legal expert in Lucknow is advisable to o
 پولیس تصدیق مارکیٹ کی حفاظت اور اعتماد کو یقینی بنانے کے لیے ہے۔ یہ دکاندار اور ملازمین دونوں کے لیے ضروری ہے تاکہ مقامی قانون کا مکمل طور پر اطلاق ہو سکے۔
     `,
 
-    footer: "© 2025 رومی چوک | جملہ حقوق محفوظ ہیں۔",
+    footer: "© 2025 لذیذ گلی | جملہ حقوق محفوظ ہیں۔",
     signIn: "شرائط و ضوابط",
     tenderOwnerLabel: "ٹینڈر مالک:",
     tenderOwnerName: "ایم/ایس پروین کمار مشرا، جونپور یوپی",
     address: "پتہ: گلاب واٹیکا، رومی گیٹ کے سامنے، حسین آباد",
-    termsDetailed: `رومی چوک @ لذیذ گلی میں دکان بک کرنے کے لیے، براہ کرم فرنچائز یا برانڈ مالکان کے درج ذیل تصدیق شدہ دستاویزات جمع کریں:
+    termsDetailed: `لذیذ گلی میں دکان بک کرنے کے لیے، براہ کرم فرنچائز یا برانڈ مالکان کے درج ذیل تصدیق شدہ دستاویزات جمع کریں:
 
 - کمپنی رجسٹریشن سرٹیفیکیٹ: آپ کے کاروبار کے قانونی اندراج کا ثبوت۔
 - برانڈ رجسٹریشن سرٹیفیکیٹ: آپ کے برانڈ نام یا لوگو کے رجسٹریشن کی دستاویزات۔
@@ -174,14 +173,15 @@ Consulting with local authorities or a legal expert in Lucknow is advisable to o
 - پولیس ویری فکیشن سرٹیفیکیٹس: دکان کے مالک اور تمام ملازمین کے لیے پس منظر کی جانچ کے دستاویزات تاکہ سلامتی اور مقامی قوانین کی پابندی یقینی بنائی جا سکے۔
 - مائیکرو، اسمال اینڈ میڈیم انٹرپرائزز (MSME) رجسٹریشن: آپ کے کاروبار کو MSME زمرے میں شامل کرنے کا سرٹیفیکیٹ، جو مختلف فوائد فراہم کر سکتا ہے۔
 
-اضافی طور پر، مقامی قوانین اور رومی چوک لذیذ گلی کی مخصوص ضروریات کے مطابق آپ کو درج ذیل کی بھی ضرورت ہو سکتی ہے:
+اضافی طور پر، مقامی قوانین اور لذیذ گلی کی مخصوص ضروریات کے مطابق آپ کو درج ذیل کی بھی ضرورت ہو سکتی ہے:
 - دکان اور ادارہ رجسٹریشن: کام کے حالات کو منظم کرتا ہے اور ملازمین کے حقوق کو یقینی بناتا ہے۔
 - میونسپل کارپوریشن سے این او سی (NOC): مقامی بلدیاتی ضوابط کے مطابق ہونے کی تصدیق کرتا ہے۔
 
 تمام ضوابط کی مکمل تعمیل کے لیے لکھنؤ کے مقامی حکام یا کسی قانونی ماہر سے مشورہ کرنا بہتر ہوگا۔`
-
   }
 }
+
+
 
 
 const terraCottaColors = {
@@ -328,6 +328,9 @@ export default function Home() {
 
         </div>
       </header>
+   
+
+
 
       {/* Partners */}
 <section
